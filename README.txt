@@ -33,7 +33,7 @@ HOW TO RUN
 ----------
 My code can be downloaded from https://github.com/arconet1/chat-metadata-service
 
-It uses a Gradle wrapper to build, so once you download, cd into gs-rest-service/ and build with:
+It uses a Gradle wrapper to build, so once you download, cd into chat-metadata-service/ and build with:
   ./gradlew build
 
 Then run the jar:
