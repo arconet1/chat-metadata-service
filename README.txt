@@ -3,8 +3,7 @@ Thomas Anderson 2017-12-29
 
 OVERVIEW
 --------
-At Amazon we use a Web Services framework called CoralService that does all the heavy lifting of setting up 
-our web services, and a code management and build framework call BrazilBuildSystem.
+At Amazon we use a Web Services framework called CoralService that does all the heavy lifting of setting up our web services, and a code management and build framework call BrazilBuildSystem.
 Suffice to say, I'm spoiled in that I don't have to concern myself with the intricacies of setting up a REST service.
 
 So upon starting the coding exercise and seeing that I would need to do just that without my precious crutches,
@@ -12,8 +11,7 @@ I went and imported the git project used in https://spring.io/guides/gs/rest-ser
 there was no way I was going to be able to manually wire up Spring, TomCat, and any other dependencies into a
 working build AND still have time to implement business logic and tests.
 
-I took about two hours as instructed to put together the source and test code - I probably went over a bit making sure
-the unit tests were doing what I wanted and tweaking the regexes accordingly.
+I took about two hours as instructed to set up the Spring project and put together the source and test code - I probably went over a bit making sure the unit tests were doing what I wanted and tweaking the regexes accordingly.
 
 However, I did have to leave and come back later to write up this README and publish to GitHub - I hope that's ok.
 
@@ -32,6 +30,8 @@ Man, I sure hope you're not in that camp because I love clean, shiny code.
 HOW TO RUN
 ----------
 My code can be downloaded from https://github.com/arconet1/chat-metadata-service
+or clone it:
+  git clone https://github.com/arconet1/chat-metadata-service.git
 
 It uses a Gradle wrapper to build, so once you download, cd into chat-metadata-service/ and build with:
   ./gradlew build
